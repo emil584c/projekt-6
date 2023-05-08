@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #FCFCFC;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 3.125rem;
+    font-weight: 400;
+    color: #040404;
+    font-family: 'Rubik', sans-serif;
+}
+
+h2{
+    font-size: 1.875rem;
+    font-weight: 500;
+    color: #040404;
+    font-family: 'Rubik', sans-serif;
+}
+
+h3{
+    font-size: 1.5;
+    font-weight: 500;
+    color: #FCFCFC;
+    font-family: 'Rubik', sans-serif;
+}
+
+h4{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #040404;
+    font-family: 'Rubik', sans-serif;
+}
