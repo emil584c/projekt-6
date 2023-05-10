@@ -14,6 +14,13 @@ export default {
       },
       maxWidth: {
         'content-width': '1166px',
+        'longbox-width': '762px'
+      },
+      spacing: {
+        'mobilebox-width': '330px',
+        'mobilebox-height': '363px',
+        'mobilelongbox-height': '482px',
+        'box-width': '363px'
       }
     },
   },
