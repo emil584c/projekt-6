@@ -3,6 +3,67 @@
 </script>
 
 <template>
+    <section class=" bg-cream-primary pt-12">
+        <div class=" max-w-sm px-4 md:max-w-content-width mx-auto">
+            <h2>VI TILBYDER</h2>
+            <div class="flex flex-col gap-4 md:gap-10">
 
+                <div class="flex gap-4 flex-col-reverse md:gap-10 md:flex-row md:justify-between">
+                    <div class="bg-[url('../assets/images/placeholders/menufoto.jpg')] bg-cover w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center gap-6 pl-5 md:w-box-width"></div>
+                    <div class=" bg-brown-primary w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">
+                
+                        <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
+                            <h3>ØLSMAGNING</h3>
+                            <p class=" mb-3 max-w-[386px]">Vi tilbyder ølsmagning på bestilling. Vores erfarne personale vil guide dig igennem smagning af 5 eller 10 forskellige kvalitetsøl, som hver især har sin egen unikke smag og historie.</p>
+                            <ul>
+                                <li>- 5 x 10 cl 140 kr.</li>
+                                <li>- 10 x 10 cl 230 kr.</li>
+                                <li>- Kan ikke bestilles til fredag og lørdag</li>
+                                <li>- Mellem 10-25 personer</li>
+                            </ul>
+                            <div class=" bg-cream-primary p-[5px] absolute z-10 w-fit self-end">
+                                <button class="border-solid border-[1px] border-border-black px-5 py-2">LÆR OS AT KENDE</button>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+
+                <div class="flex gap-4 flex-col-reverse md:gap-10 md:flex-row md:justify-between">
+                    <div class=" bg-green-primary w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">
+                
+                        <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
+                            <h3>HÅNDMADDER</h3>
+                            <p class=" mb-3 max-w-[386px]">Fredag og lørdag mellem kl 12 og 14 har du den gyldne mulighed for at nyde din frokost på Carlsens Kvarter. Vi tilbyder tre stykker friske håndmadder fra den lokale Allégårdens Slagter sammensat med en Albani Classic på fad.</p>
+                            <ul class="mb-3">
+                                <li>- 125 kr. pr. person</li>
+                                <li>- Reserver senest torsdag.</li>
+                            </ul>
+                            <p class=" text-base font-medium">SKAL BESTILLES PÅ VORES FACEBOOK MESSENGER</p>
+                            <div class=" bg-cream-primary p-[5px] absolute z-10 w-fit self-end">
+                                <button class="border-solid border-[1px] border-border-black px-5 py-2">LÆR OS AT KENDE</button>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="bg-[url('../assets/images/placeholders/menufoto.jpg')] bg-cover w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center gap-6 pl-5 md:w-box-width"></div>
+                </div>
+
+                <div class="flex gap-4 flex-col-reverse md:gap-10 md:flex-row md:justify-between">
+                    <div class="bg-[url('../assets/images/placeholders/menufoto.jpg')] bg-cover w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center gap-6 pl-5 md:w-box-width"></div>
+                    <div class=" bg-brown-primary w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">
+                
+                        <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
+                            <h3>ARRANGEMENTER</h3>
+                            <p class=" mb-3 max-w-[386px]">På dage hvor der er kapacitet til det, tilbyder vi også vores lokaler til brug i forbindelse med arrangementer.</p>
+                            <p class=" max-w-[386px]">Kontakt os for at høre mere om, hvad der er muligt.</p>
+                            <div class=" bg-cream-primary p-[5px] absolute z-10 w-fit self-end">
+                                <button class="border-solid border-[1px] border-border-black px-5 py-2">KONTAKT OS</button>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 </template>
