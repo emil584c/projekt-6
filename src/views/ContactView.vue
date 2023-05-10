@@ -12,5 +12,4 @@ import FooterBottom from '../components/FooterBottom.vue'
 <ContactSection />
 <SocialMedia />
 <FooterBottom />
-
 </template>
