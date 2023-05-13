@@ -1,6 +1,6 @@
 <!-- Emil Skriver -->
 <script setup>
-
+import buttonPrimary from './ButtonPrimary.vue'
 </script>
 
 <template>

@@ -10,6 +10,7 @@ export default {
         'cream-primary': '#f7f2ed',
         'brown-primary': '#411f1e',
         'green-primary': '#2e5342',
+        'black-primary': "#040404",
         'border-black': '#222222',
         'border-white': '#f7f2ed'
       },

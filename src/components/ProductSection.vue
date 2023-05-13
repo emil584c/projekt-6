@@ -1,5 +1,6 @@
 <!-- Emil Skriver -->   
 <script setup>
+import buttonPrimary from './ButtonPrimary.vue'
 
 </script>
 
@@ -22,9 +23,7 @@
                                 <li>- Kan ikke bestilles til fredag og lørdag</li>
                                 <li>- Mellem 10-25 personer</li>
                             </ul>
-                            <div class=" bg-cream-primary p-[5px] absolute right-5 bottom-5 z-10 w-fit self-end">
-                                <button class="border-solid border-[1px] border-border-black px-5 py-2 min-w-[160px]">BESTIL</button>
-                            </div>
+                            <buttonPrimary buttonText="BESTIL"/>
                         </div>
                      </div>
                 </div>
@@ -40,9 +39,7 @@
                                 <li>- Reserver senest torsdag.</li>
                             </ul>
                             <p class=" text-base font-medium">SKAL BESTILLES PÅ VORES FACEBOOK MESSENGER</p>
-                            <div class=" bg-cream-primary p-[5px] absolute z-10 w-fit right-5 bottom-5 self-end">
-                                <button class="border-solid border-[1px] border-border-black px-5 py-2 min-w-[160px]">BESTIL</button>
-                            </div>
+                            <buttonPrimary buttonText="BESTIL"/>
                         </div>
                      </div>
                      <div class="bg-[url('../assets/images/placeholders/menufoto.jpg')] bg-cover w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center gap-6 pl-5 md:w-box-width"></div>
@@ -56,9 +53,7 @@
                             <h3>ARRANGEMENTER</h3>
                             <p class=" mb-3 max-w-[386px]">På dage hvor der er kapacitet til det, tilbyder vi også vores lokaler til brug i forbindelse med arrangementer.</p>
                             <p class=" max-w-[386px]">Kontakt os for at høre mere om, hvad der er muligt.</p>
-                            <div class=" bg-cream-primary p-[5px] absolute right-5 bottom-5 z-10 w-fit">
-                                <button class="border-solid border-[1px] border-border-black px-5 py-2 min-w-[160px]">KONTAKT OS</button>
-                            </div>
+                            <buttonPrimary buttonText="KONTAKT OS"/>
                         </div>
                      </div>
                 </div>
