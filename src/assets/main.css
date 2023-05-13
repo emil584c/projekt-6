@@ -45,6 +45,17 @@ li{
     font-family: 'Rubik', sans-serif;
 }
 
+.team-name{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+}
+
+.team-nickname{
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+}
+
 
 @media screen and (min-width: 900px){
 
@@ -54,7 +65,7 @@ li{
 
     h2{
         font-size: 1.875rem;
-        max-width: 500px;
+        max-width: 540px;
     }
 
     h4{
