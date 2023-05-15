@@ -6,10 +6,11 @@
 <template>
 
     <header class=" bg-brown-primary">
-        <div class= "flex flex-col items-start justify-center py-7 max-w-xs mx-auto">
-            <img class=" mb-6 justify-item-start" src="../assets/images/placeholders/cklogo.svg" alt="carlsens logo">
-            <div class="bg-border-white w-full md:max-w-content-width h-[2px] "></div>
+        <div class= "flex flex-col items-start justify-center py-7 max-w-[330px] mx-auto">
+            <img class="justify-item-start" src="../assets/images/placeholders/cklogo.svg" alt="carlsens logo">
+            <div class="bg-border-white w-full md:max-w-content-width h-[2px] my-2"></div>
             <p>Kom forbi Carlsens Kvarter, og få en iskold fadøl på Odenses hyggeligste ølbar. Vi garanterer en unik smagsoplevelse og højt humør på alle dagens tidspunkter.</p>
+            
             <h2 class="text-border-white mt-10 mb-2">INFORMATION</h2>
             <div class="mb-1">
                 <p>Hunderupvej 19, 5000 Odense C</p>
@@ -23,6 +24,7 @@
                 <p>Søndag: 13:00 - 19:00</p>
             </div>
             <div class="bg-border-white w-full max-w-content-width h-[2px]"></div>
+            <p class="mt-4">© 2023 Carlsens Kvarter</p>
         </div>
     </header>
     
