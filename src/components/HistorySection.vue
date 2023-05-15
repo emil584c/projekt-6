@@ -5,13 +5,13 @@
 
 <template>
 
-    <section class=" bg-cream-primary pt-12">
+    <section class=" bg-cream-primary py-12">
         <div class=" max-w-sm px-4 md:max-w-content-width mx-auto">
             <h2>VORES HISTORIE</h2>
             <div class="flex flex-col gap-4 md:gap-10">
 
                 <div class="flex gap-4 flex-col md:gap-10 md:flex-row md:justify-between">
-                    <div class="bg-[url('../assets/images/placeholders/menufoto.jpg')] bg-cover w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center gap-6 pl-5 md:w-box-width"></div>
+                    <img src="../assets/images/benny1.jpg" class=" w-mobilebox-width h-mobilebox-height bg-center md:w-box-width object-cover" alt="billede af Benny">
                     <div class=" bg-green-primary w-mobilebox-width h-fit md:h-mobilebox-height bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">
                 
                         <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
@@ -30,7 +30,7 @@
                             <p class=" max-w-[386px] md:max-w-[600px]">Vi er stolte af vores historie og fortsætter med at tilbyde vores gæster det bedste af det bedste. I 1997 introducerede vi vores første tre egen importerede belgiske øl. Vi har siden udvidet vores sortiment, men vores mål er stadig det samme - at tilbyde vores gæster en varm og hyggelig oplevelse med god og personlig service.</p>
                         </div>
                      </div>
-                     <div class="bg-[url('../assets/images/placeholders/menufoto.jpg')] bg-cover w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center gap-6 pl-5 md:w-box-width"></div>
+                     <img src="../assets/images/benny1.jpg" class=" w-mobilebox-width h-mobilebox-height bg-center md:w-box-width object-cover" alt="billede af Benny">
                 </div>
 
             </div>
