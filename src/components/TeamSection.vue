@@ -1,4 +1,4 @@
-<!-- Emil Koder -->
+<!-- Emil Skriver -->
 
 <script setup>
 

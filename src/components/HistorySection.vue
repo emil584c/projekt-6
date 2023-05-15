@@ -10,7 +10,6 @@
             <h2>VORES HISTORIE</h2>
             <div class="flex flex-col gap-4 md:gap-10">
 
-               
                 <div class="flex gap-4 flex-col md:gap-10 md:flex-row md:justify-between">
                     <div class="bg-[url('../assets/images/placeholders/menufoto.jpg')] bg-cover w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center gap-6 pl-5 md:w-box-width"></div>
                     <div class=" bg-green-primary w-mobilebox-width h-fit md:h-mobilebox-height bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">
