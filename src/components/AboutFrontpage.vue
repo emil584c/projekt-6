@@ -13,7 +13,7 @@ import buttonPrimary from './ButtonPrimary.vue'
 
                 <div class="flex flex-col gap-4 md:gap-10 md:flex-row md:justify-between">
                     <div class="bg-[url('../assets/images/placeholders/groupfoto.jpg')] bg-cover w-mobilebox-width h-mobilebox-height bg-center flex justify-center items-end p-10 md:max-w-longbox-width md:w-full md:justify-end md:p-8">
-                        <div class=" bg-cream-primary p-[5px] relative z-10 w-fit">
+                        <div class=" bg-cream-primary p-[5px] relative z-10 w-fit hover:scale-95 duration-100">
                             <button class="border-solid border-[1px] border-border-black px-5 py-2">LÆR OS AT KENDE</button>
                         </div>
                     </div>

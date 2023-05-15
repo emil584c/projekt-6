@@ -8,7 +8,6 @@ import FooterBottom from '../components/FooterBottom.vue'
 </script>
 
 <template>
-
     <HeaderTop />
 <main>
     <FrontpageHero />
@@ -17,6 +16,4 @@ import FooterBottom from '../components/FooterBottom.vue'
     <SocialMedia />
 </main>
     <FooterBottom />
-
-
 </template>
