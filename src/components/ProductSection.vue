@@ -4,8 +4,6 @@ import buttonPrimary from './ButtonPrimary.vue'
 
 import { ref } from 'vue'
 import { request } from "../datocms";
-import { StructuredText as DatocmsStructuredText } from "vue-datocms";
-import { Image as DatocmsImage } from "vue-datocms";
 
 const data = ref(null);
 const error = ref(null);

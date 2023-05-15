@@ -1,6 +1,46 @@
 <!-- Emil Skriver -->
 
 <script setup>
+// import buttonPrimary from './ButtonPrimary.vue'
+
+// import { ref } from 'vue'
+// import { request } from "../datocms";
+// import { Image as DatocmsImage } from "vue-datocms";
+
+// const data = ref(null);
+// const error = ref(null);
+// const loading = ref(true);
+// const bread = ref(null);
+// const beer1 = ref(null);
+// const beer2 = ref(null);
+
+// const INFORMATION_QUERY = `
+//   query information {
+//         information {
+//         id
+//         name
+//         priser{
+//         ... on PricingRecord{
+//             bread
+//             beerTasting1
+//             beerTasting2
+//             }
+//         }
+//     }
+//     }
+// `;
+
+// request({ query: INFORMATION_QUERY }).then(result => {
+//   data.value = result;
+//   console.log(data.value.information.priser[0]);
+//   bread.value = data.value.information.priser[0].bread;
+//   beer1.value = data.value.information.priser[0].beerTasting1;
+//   beer2.value = data.value.information.priser[0].beerTasting2;
+// }).catch(e => {
+//   error.value = e;
+// }).finally(() => {
+//   loading.value = false;
+// });
 
 </script>
 
