@@ -6,7 +6,7 @@
 <template>
 
     <footer class=" bg-brown-primary">
-        <div class= "flex flex-col items-start justify-center py-8 max-w-[330px] mx-auto md:flex-row md:max-w-10xl">
+        <div class="flex flex-col items-start justify-center py-8 max-w-[330px] mx-auto md:flex-row md:max-w-10xl">
             
                 <div class="md:flex-col md:mr-32">
                     <img class="justify-item-start" src="../assets/images/placeholders/cklogo.svg" alt="carlsens logo">
