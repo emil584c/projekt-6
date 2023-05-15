@@ -14,28 +14,28 @@
 // const beer1 = ref(null);
 // const beer2 = ref(null);
 
-// const INFORMATION_QUERY = `
-//   query information {
-//         information {
+// const EMPLOYEE_QUERY = `
+//   query employees {
+//   employee {
+//     id
+//     name
+//     ... on EmployeeRecord {
+//       employees {
 //         id
-//         name
-//         priser{
-//         ... on PricingRecord{
-//             bread
-//             beerTasting1
-//             beerTasting2
-//             }
+//         employeeImage {
+//           id
 //         }
+//         employeeName
+//         employeeNickname
+//       }
 //     }
-//     }
+//   }
+// }
 // `;
 
-// request({ query: INFORMATION_QUERY }).then(result => {
+// request({ query: EMPLOYEE_QUERY }).then(result => {
 //   data.value = result;
 //   console.log(data.value.information.priser[0]);
-//   bread.value = data.value.information.priser[0].bread;
-//   beer1.value = data.value.information.priser[0].beerTasting1;
-//   beer2.value = data.value.information.priser[0].beerTasting2;
 // }).catch(e => {
 //   error.value = e;
 // }).finally(() => {
