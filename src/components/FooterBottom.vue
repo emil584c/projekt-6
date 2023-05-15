@@ -15,8 +15,8 @@
                 </div>
 
                 <div class="md:flex-col md:mr-32">
-                    <h2 class="text-border-white mt-12 mb-4.5">NYTTIGE LINKS</h2>
-                    <div class="mb-3">
+                    <h2 class="text-border-white mt-9 mb-2 md:mt-12 md:mb-4.5">NYTTIGE LINKS</h2>
+                    <div class="mb-1 md:mb-3">
                         <router-link to="/"><p>Forside</p></router-link>
                         <router-link to="/"><p>Vi tilbyder</p></router-link>
                         <router-link to="/about"><p>Hvem er vi</p></router-link>
@@ -25,8 +25,8 @@
                 </div>
 
                 <div class="flex-col md:mr-32">
-                    <h2 class="text-border-white mt-12 mb-4.5">INFORMATION</h2>
-                        <div class="mb-3">
+                    <h2 class="text-border-white mt-9 mb-2 md:mt-12 md:mb-4.5">INFORMATION</h2>
+                        <div class="mb-1 md:mb-3">
                             <p>Hunderupvej 19, 5000 Odense C</p>
                             <p>+45 63 11 01 10</p>
                             <p>carlsens@carlsens.dk</p>
@@ -34,8 +34,8 @@
                 </div>
                 
                 <div class="flex-col">
-                    <h2 class="text-border-white mt-12 mb-4.5">ÅBNINGSTIDER</h2>
-                    <div class="mb-3">
+                    <h2 class="text-border-white mt-9 mb-2 md:mt-12 md:mb-4.5">ÅBNINGSTIDER</h2>
+                    <div class="mb-1 md:mb-3">
                         <p>Man - Lør: 12:00 - 01:00</p>
                         <p>Søndag: 13:00 - 19:00</p>
                     </div>
