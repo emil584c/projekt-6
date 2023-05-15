@@ -2,60 +2,45 @@
 <script setup>
 import buttonPrimary from './ButtonPrimary.vue'
 
-// import { ref } from 'vue'
-// import { request } from "../datocms";
-// import { StructuredText as DatocmsStructuredText } from "vue-datocms";
-// import { Image as DatocmsImage } from "vue-datocms";
+import { ref } from 'vue'
+import { request } from "../datocms";
+import { StructuredText as DatocmsStructuredText } from "vue-datocms";
+import { Image as DatocmsImage } from "vue-datocms";
 
-// const data = ref(null);
-// const error = ref(null);
-// const loading = ref(true);
+const data = ref(null);
+const error = ref(null);
+const loading = ref(true);
+const bread = ref(null);
+const beer1 = ref(null);
+const beer2 = ref(null);
 
-// const HOMEPAGE_QUERY = `
-//   query HomePage {
-//     homePage{
-//       id
-//       name
-//       heroContent{
-//         ... on HeroRecord{
-//           heroText
-//           heroDescription {value}
-//         }
-//       }
-//       aboutSection{
-//         ... on AboutRecord{
-//           sectionTitle
-//           aboutText {value}
-//         }
-//       }
-//     }
-//   }
-// `;
+const INFORMATION_QUERY = `
+  query information {
+        information {
+        id
+        name
+        priser{
+        ... on PricingRecord{
+            bread
+            beerTasting1
+            beerTasting2
+            }
+        }
+    }
+    }
+`;
 
-// request({ query: HOMEPAGE_QUERY }).then(result => {
-//   data.value = result;
-//   console.log(data.value.homePage.heroContent);
-// }).catch(e => {
-//   error.value = e;
-// }).finally(() => {
-//   loading.value = false;
-// });
-
-
-// {
-//   information {
-//     id
-//     name
-//     priser{
-//       ... on PricingRecord{
-//         bread
-//         beerTasting1
-//         beerTasting2
-//     	}
-//   	}
-//   }
-// }
-
+request({ query: INFORMATION_QUERY }).then(result => {
+  data.value = result;
+  console.log(data.value.information.priser[0]);
+  bread.value = data.value.information.priser[0].bread;
+  beer1.value = data.value.information.priser[0].beerTasting1;
+  beer2.value = data.value.information.priser[0].beerTasting2;
+}).catch(e => {
+  error.value = e;
+}).finally(() => {
+  loading.value = false;
+});
 
 
 </script>
@@ -74,8 +59,8 @@ import buttonPrimary from './ButtonPrimary.vue'
                             <h3>ØLSMAGNING</h3>
                             <p class=" mb-3 max-w-[386px]">Vi tilbyder ølsmagning på bestilling. Vores erfarne personale vil guide dig igennem smagning af 5 eller 10 forskellige kvalitetsøl, som hver især har sin egen unikke smag og historie.</p>
                             <ul>
-                                <li>- 5 x 10 cl 140 kr.</li>
-                                <li>- 10 x 10 cl 230 kr.</li>
+                                <li>- {{ beer1 }}</li>
+                                <li>- {{ beer2 }}</li>
                                 <li>- Kan ikke bestilles til fredag og lørdag</li>
                                 <li>- Mellem 10-25 personer</li>
                             </ul>
@@ -91,7 +76,7 @@ import buttonPrimary from './ButtonPrimary.vue'
                             <h3>HÅNDMADDER</h3>
                             <p class=" mb-3 max-w-[386px]">Fredag og lørdag mellem kl 12 og 14 har du den gyldne mulighed for at nyde din frokost på Carlsens Kvarter. Vi tilbyder tre stykker friske håndmadder fra den lokale Allégårdens Slagter sammensat med en Albani Classic på fad.</p>
                             <ul class="mb-3">
-                                <li>- 125 kr. pr. person</li>
+                                <li>- {{ bread }}</li>
                                 <li>- Reserver senest torsdag.</li>
                             </ul>
                             <p class=" text-base font-medium">SKAL BESTILLES PÅ VORES FACEBOOK MESSENGER</p>
