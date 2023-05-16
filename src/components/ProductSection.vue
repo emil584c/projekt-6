@@ -79,13 +79,12 @@ request({ query: INFORMATION_QUERY }).then(result => {
                             <buttonPrimary buttonText="BESTIL"/>
                         </div>
                      </div>
-                     <div class="bg-[url('../assets/images/placeholders/menufoto.jpg')] bg-cover w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center gap-6 pl-5 md:w-box-width"></div>
+                     <img src="../assets/images/haandmadder_carlsens_kvarter.jpg" class=" w-mobilebox-width h-mobilebox-height bg-center md:w-box-width object-cover" alt="billede af Carlsens Kvarters lokaler">
                 </div>
 
                 <div class="flex gap-4 flex-col-reverse md:gap-10 md:flex-row md:justify-between">
-                    <div class="bg-[url('../assets/images/placeholders/menufoto.jpg')] bg-cover w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center gap-6 pl-5 md:w-box-width"></div>
+                    <img src="../assets/images/arrangementer_carlsens_kvarter.jpg" class=" w-mobilebox-width h-mobilebox-height bg-center md:w-box-width object-cover" alt="billede af Carlsens Kvarters lokaler">
                     <div class=" bg-brown-primary w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">
-                
                         <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
                             <h3>ARRANGEMENTER</h3>
                             <p class=" mb-3 max-w-[386px]">På dage hvor der er kapacitet til det, tilbyder vi også vores lokaler til brug i forbindelse med arrangementer.</p>
