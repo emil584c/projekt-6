@@ -17,7 +17,17 @@ const EMPLOYEE_QUERY = `
       employees {
         id
         employeeImage {
-          id
+            responsiveImage {
+        srcSet
+        webpSrcSet
+        sizes
+        src
+        width
+        aspectRatio
+        alt
+        title
+        base64
+      }
         }
         employeeName
         employeeNickname
@@ -43,14 +53,17 @@ request({ query: EMPLOYEE_QUERY }).then(result => {
         <div class="max-w-sm px-4 md:max-w-content-width mx-auto">
             <h2>MØD HOLDET BAG BAREN</h2>
             <p class=" text-black-primary max-w-[685px] mb-4">Vores personale står klar til enhver tid at give dig en personlig betjening. Herunder ser du vores faste personale som du kan være sikker på at møde i baren når du kommer.</p>
-            <div class=" flex flex-wrap w-full justify-center md:grid md:grid-cols-4">
+            <div class=" flex flex-wrap w-full gap-3 justify-center md:grid md:grid-cols-4">
 
-                <div class="w-[261px] h-[410px] bg-brown-primary p-2"  v-for="employee in ting" :key="employee.id">
-                    <!-- <img class="border-solid border-[2px] border-border-white mb-2" :src="ting.employeeImage.url" :alt="employee.employeeName"> -->
-                    <div class="w-full">
-                      <p class="team-name mb-[-4px]">{{ ting.employeeName }}</p>
-                      <p class="team-nickname">{{ ting.employeeNickname }}</p>
-                    </div>
+                <div class="w-[261px] h-[410px] bg-brown-primary p-[10px] box-border"  v-for="employee in ting" :key="employee.id">
+                    <div class="w-fit mx-auto">
+                        <datocms-image class="border-solid border-[4px] border-border-white mb-2 object-cover" :data="employee.employeeImage.responsiveImage" />
+                        <!-- <img class="border-solid border-[2px] border-border-white mb-2" :src="employee.employeeImage.url" :alt="employee.employeeName"> -->
+                        <div class="w-full">
+                          <p class="team-name mb-[-4px]">{{ employee.employeeName }}</p>
+                          <p class="team-nickname">{{ employee.employeeNickname }}</p>
+                        </div>
+                    </div>  
                   </div>
 
             </div>
