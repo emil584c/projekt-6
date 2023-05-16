@@ -14,31 +14,25 @@
                             <p>Kom forbi Carlsens Kvarter, og få en iskold fadøl på Odenses hyggeligste ølbar. Vi garanterer en unik smagsoplevelse og højt humør på alle dagens tidspunkter.</p>
                 </div>
 
-                <div class="md:flex-col md:max-w-[175px] hyphens-none">
+                <div class="md:flex-col md:max-w-[175px]">
                     <h2 class="text-border-white mt-9 mb-2 md:text-2xl md:mt-12 md:mb-4.5">NYTTIGE LINKS</h2>
-                        <div class="mb-1 md:mb-3">
-                            <router-link to="/"><p>Forside</p></router-link>
-                            <router-link to="/"><p>Vi tilbyder</p></router-link>
-                            <router-link to="/about"><p>Hvem er vi</p></router-link>
-                            <router-link to="/contact"><p>Kontakt os</p></router-link>
-                        </div>
+                        <router-link to="/"><p class="mb-1 md:mb-3 text-lg">Forside</p></router-link>
+                        <router-link to="/"><p class="mb-1 md:mb-3 text-lg">Vi tilbyder</p></router-link>
+                        <router-link to="/about"><p class="mb-1 md:mb-3 text-lg">Hvem er vi</p></router-link>
+                        <router-link to="/contact"><p class="mb-1 md:mb-3 text-lg">Kontakt os</p></router-link>
                 </div>
 
                 <div class="flex-col max-w-[177px]">
                     <h2 class="text-border-white text-2xl mt-9 mb-2 md:mt-12 md:mb-4.5">INFORMATION</h2>
-                        <div class="mb-1 md:mb-3 text-lg">
-                            <p>Hunderupvej 19, 5000 Odense C</p>
-                            <p>+45 63 11 01 10</p>
-                            <p>carlsens@carlsens.dk</p>
-                        </div>
+                        <p class="mb-1 md:mb-3 text-lg">Hunderupvej 19, 5000 Odense C</p>
+                        <p class="mb-1 md:mb-3 text-lg">+45 63 11 01 10</p>
+                        <p class="mb-1 md:mb-3 text-lg">carlsens@carlsens.dk</p>
                 </div>
                 
                 <div class="flex-col max-w-[192px]">
                     <h2 class="text-border-white text-2xl mt-9 mb-2 md:mt-12 md:mb-4.5">ÅBNINGSTIDER</h2>
-                        <div class="mb-1 md:mb-3 text-lg">
-                            <p>Man - Lør: 12:00 - 01:00</p>
-                            <p>Søndag: 13:00 - 19:00</p>
-                        </div>
+                        <p class="mb-1 md:mb-3 text-lg">Man - Lør: 12:00 - 01:00</p>
+                        <p class="mb-1 md:mb-3 text-lg">Søndag: 13:00 - 19:00</p>
                 </div>
             
         </div>
