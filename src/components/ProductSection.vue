@@ -30,7 +30,7 @@ const INFORMATION_QUERY = `
 
 request({ query: INFORMATION_QUERY }).then(result => {
   data.value = result;
-  console.log(data.value.information.priser[0]);
+//   console.log(data.value.information.priser[0]);
   bread.value = data.value.information.priser[0].bread;
   beer1.value = data.value.information.priser[0].beerTasting1;
   beer2.value = data.value.information.priser[0].beerTasting2;
@@ -39,8 +39,6 @@ request({ query: INFORMATION_QUERY }).then(result => {
 }).finally(() => {
   loading.value = false;
 });
-
-
 </script>
 
 <template>

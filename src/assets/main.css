@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 p{
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 400;
     color: #FCFCFC;
     font-family: 'Roboto', sans-serif;
@@ -39,7 +39,7 @@ h4{
 }
 
 li{
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 400;
     color: #FCFCFC;
     font-family: 'Rubik', sans-serif;
