@@ -27,6 +27,10 @@ import buttonPrimary from './ButtonPrimary.vue'
                             <h3>SPØRGSMÅL?</h3>
                             <p class=" mb-3 max-w-[386px]">Hvis du har spørgsmål eller forespørgsler udover bestilling af ølsmagning, håndmadder eller arrangement, kan du kontakte os på følgende muligheder.</p>
                             <p class=" text-base font-medium">BORDRESERVATION ER IKKE MULIGT.</p>
+                            <div class="bg-border-white w-full md:max-w-content-width h-[1px] my-2"></div>
+                            <p class="mb-1 md:mb-3 text-lg">+45 63 11 01 10</p>
+                            <p class="mb-1 md:mb-3 text-lg">carlsens@carlsens.dk</p>
+                            <p class="mb-1 md:mb-3 text-lg">Hunderupvej 19, 5000 Odense C</p>
                         </div>
                      </div>
                      <div class="bg-[url('../assets/images/placeholders/menufoto.jpg')] bg-cover w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center gap-6 pl-5 md:w-box-width"></div>
