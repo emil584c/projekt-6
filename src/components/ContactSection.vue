@@ -6,7 +6,7 @@ import buttonPrimary from './ButtonPrimary.vue'
 
 <template>
     <section class=" bg-cream-primary">
-        <div class="flex-auto flex-col items-start justify-center py-8 max-w-[330px] mx-auto md:flex-row md:max-w-content-width ">
+        <div class="flex-auto flex-col items-start justify-center max-w-[330px] mx-auto md:flex-row md:max-w-content-width ">
 
                 <div class="flex flex-col md:flex-row-reverse md:justify-between">
                     <div class=" bg-green-primary w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">
@@ -17,7 +17,7 @@ import buttonPrimary from './ButtonPrimary.vue'
                             <buttonPrimary buttonText="BESTIL"/>
                         </div>
                     </div>
-                    <div class="bg-[url('../assets/images/placeholders/menufoto.jpg')] bg-cover w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center pl-5 md:w-box-width"></div>
+                    <div class="bg-[url('../assets/images/placeholders/menufoto.jpg')] bg-cover my-[20px] w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center pl-5 md:w-box-width"></div>
                 </div>
 
                 <div class="flex flex-col md:flex-row md:justify-between">
@@ -33,7 +33,7 @@ import buttonPrimary from './ButtonPrimary.vue'
                             <p class="mb-1 md:mb-3 ">Hunderupvej 19, 5000 Odense C</p>
                         </div>
                      </div>
-                     <div class="bg-[url('../assets/images/placeholders/menufoto.jpg')] bg-cover w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center gap-6 pl-5 md:w-box-width"></div>
+                     <div class="bg-[url('../assets/images/placeholders/menufoto.jpg')] bg-cover my-[20px] w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center gap-6 pl-5 md:w-box-width"></div>
                 </div>
         </div>
     </section>
