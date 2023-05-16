@@ -6,25 +6,25 @@
 <template>
 
     <footer class=" bg-brown-primary">
-        <div class="flex flex-col items-start justify-center py-8 max-w-[330px] mx-auto md:flex-row md:max-w-10xl">
+        <div class="flex flex-col items-start justify-center py-8 max-w-[330px] mx-auto md:flex-row md:max-w-content-width md:justify-between ">
             
-                <div class="md:flex-col md:mr-32">
+                <div class="md:flex-col max-w-[240px]">
                     <img class="justify-item-start" src="../assets/images/placeholders/cklogo.svg" alt="carlsens logo">
-                    <div class="bg-border-white w-full md:max-w-content-width h-[2px] my-2"></div>
-                    <p>Kom forbi Carlsens Kvarter, og få en iskold fadøl på Odenses hyggeligste ølbar. Vi garanterer en unik smagsoplevelse og højt humør på alle dagens tidspunkter.</p>
+                        <div class="bg-border-white w-full md:max-w-content-width h-[2px] my-2"></div>
+                            <p>Kom forbi Carlsens Kvarter, og få en iskold fadøl på Odenses hyggeligste ølbar. Vi garanterer en unik smagsoplevelse og højt humør på alle dagens tidspunkter.</p>
                 </div>
 
-                <div class="md:flex-col md:mr-32">
+                <div class="md:flex-col md:max-w-[175px] hyphens-none">
                     <h2 class="text-border-white mt-9 mb-2 md:text-2xl md:mt-12 md:mb-4.5">NYTTIGE LINKS</h2>
-                    <div class="mb-1 md:mb-3">
-                        <router-link to="/"><p>Forside</p></router-link>
-                        <router-link to="/"><p>Vi tilbyder</p></router-link>
-                        <router-link to="/about"><p>Hvem er vi</p></router-link>
-                        <router-link to="/contact"><p>Kontakt os</p></router-link>
-                    </div>
+                        <div class="mb-1 md:mb-3">
+                            <router-link to="/"><p>Forside</p></router-link>
+                            <router-link to="/"><p>Vi tilbyder</p></router-link>
+                            <router-link to="/about"><p>Hvem er vi</p></router-link>
+                            <router-link to="/contact"><p>Kontakt os</p></router-link>
+                        </div>
                 </div>
 
-                <div class="flex-col md:mr-32">
+                <div class="flex-col max-w-[177px]">
                     <h2 class="text-border-white text-2xl mt-9 mb-2 md:mt-12 md:mb-4.5">INFORMATION</h2>
                         <div class="mb-1 md:mb-3 text-lg">
                             <p>Hunderupvej 19, 5000 Odense C</p>
@@ -33,18 +33,21 @@
                         </div>
                 </div>
                 
-                <div class="flex-col">
+                <div class="flex-col max-w-[192px]">
                     <h2 class="text-border-white text-2xl mt-9 mb-2 md:mt-12 md:mb-4.5">ÅBNINGSTIDER</h2>
-                    <div class="mb-1 md:mb-3 text-lg">
-                        <p>Man - Lør: 12:00 - 01:00</p>
-                        <p>Søndag: 13:00 - 19:00</p>
-                    </div>
+                        <div class="mb-1 md:mb-3 text-lg">
+                            <p>Man - Lør: 12:00 - 01:00</p>
+                            <p>Søndag: 13:00 - 19:00</p>
+                        </div>
                 </div>
             
+        </div>
 
-            <div class="bg-border-white w-full max-w-content-width h-[2px]"></div>
+        <div class="flex flex-col justify-center pb-8 max-w-[330px] mx-auto md:max-w-content-width">
+            <div class="bg-border-white w-full md:max-w-content-width h-[2px]"></div>
             <p class="mt-4 text-lg">© 2023 Carlsens Kvarter</p>
         </div>
+
     </footer>
     
 </template>
