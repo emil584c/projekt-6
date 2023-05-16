@@ -48,7 +48,7 @@ request({ query: INFORMATION_QUERY }).then(result => {
             <div class="flex flex-col gap-4 md:gap-10">
 
                 <div class="flex gap-4 flex-col-reverse md:gap-10 md:flex-row md:justify-between">
-                    <div class="bg-[url('../assets/images/placeholders/menufoto.jpg')] bg-cover w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center gap-6 pl-5 md:w-box-width"></div>
+                    <img src="../assets/images/bestillinger_carlsens_kvarter.jpg" class=" w-mobilebox-width h-mobilebox-height bg-center md:w-box-width object-cover" alt="billede af tjener der holder øl">
                     <div class=" bg-brown-primary w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">
                 
                         <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
@@ -79,7 +79,7 @@ request({ query: INFORMATION_QUERY }).then(result => {
                             <buttonPrimary buttonText="BESTIL"/>
                         </div>
                      </div>
-                     <img src="../assets/images/haandmadder_carlsens_kvarter.jpg" class=" w-mobilebox-width h-mobilebox-height bg-center md:w-box-width object-cover" alt="billede af Carlsens Kvarters lokaler">
+                     <img src="../assets/images/haandmadder_carlsens_kvarter.jpg" class=" w-mobilebox-width h-mobilebox-height bg-center md:w-box-width object-cover" alt="billede af Carlsens Kvarters håndmadder">
                 </div>
 
                 <div class="flex gap-4 flex-col-reverse md:gap-10 md:flex-row md:justify-between">
