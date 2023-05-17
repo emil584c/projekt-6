@@ -17,7 +17,7 @@ import buttonPrimary from './ButtonPrimary.vue'
                             <buttonPrimary buttonText="BESTIL"/>
                         </div>
                     </div>
-                    <div class="bg-[url('../assets/images/placeholders/menufoto.jpg')] bg-cover my-[20px] w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center pl-5 md:w-box-width"></div>
+                    <div class="bg-[url('../assets/images/bestillinger_carlsens_kvarter.jpg')] bg-cover my-[20px] w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center pl-5 md:w-box-width"></div>
                 </div>
 
                 <div class="flex flex-col md:flex-row md:justify-between">
@@ -28,9 +28,11 @@ import buttonPrimary from './ButtonPrimary.vue'
                             <p class=" mb-3 max-w-[386px]">Hvis du har spørgsmål eller forespørgsler udover bestilling af ølsmagning, håndmadder eller arrangement, kan du kontakte os på følgende muligheder.</p>
                             <p class=" text-base font-medium">BORDRESERVATION ER IKKE MULIGT.</p>
                             <div class="bg-border-white w-full md:max-w-content-width h-[1px] my-2"></div>
-                            <p class="mb-1 md:mb-3 ">+45 63 11 01 10</p>
-                            <p class="mb-1 md:mb-3 ">carlsens@carlsens.dk</p>
-                            <p class="mb-1 md:mb-3 ">Hunderupvej 19, 5000 Odense C</p>
+                            <div class="md:flex-row">
+                                <p class="mb-1 md:mb-3 ">+45 63 11 01 10</p>
+                                <p class="mb-1 md:mb-3 ">carlsens@carlsens.dk</p>
+                                <p class="mb-1 md:mb-3 ">Hunderupvej 19, 5000 Odense C</p>
+                            </div>
                         </div>
                      </div>
                      <div class="bg-[url('../assets/images/placeholders/menufoto.jpg')] bg-cover my-[20px] w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center gap-6 pl-5 md:w-box-width"></div>
