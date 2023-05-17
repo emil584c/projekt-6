@@ -45,7 +45,7 @@
                 <div class="flex gap-4 flex-col-reverse md:gap-10 md:flex-row md:justify-between">
                     <div class=" bg-brown-primary md:bg-[url('../assets/images/udvalg_af_oel_carlsens_kvarter.jpg')] bg-cover w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-10 md:w-full md:max-w-longbox-width">
                         <h3>UDVALG AF ØL</h3> 
-                        <p class=" mb-2 max-w-[386px]">Hos Carlsens Kvarter elsker vi øl, og er altid på udkik efter nye spændende varianter, til vores brede udvalg i baren.</p>
+                        <p class=" mb-2 max-w-[386px]">Hos Carlsens Kvarter elsker vi øl, og er altid på udkig efter nye spændende varianter, til vores brede udvalg i baren.</p>
                         <p class="max-w-[386px]">Vi har mange forskellige slags øl til hver en smag, dog er belgisk bryg vores specialitet. Størstedelen af vores øl kan du vælge enten at få på flaske eller fad.</p>
                      </div>
                      <img src="../assets/images/menu_carlsens_kvarter.jpg" class=" w-mobilebox-width h-mobilebox-height bg-center md:w-box-width object-cover" alt="billede af tjener der holder øl">
