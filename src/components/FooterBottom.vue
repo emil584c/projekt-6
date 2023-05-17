@@ -9,7 +9,7 @@
         <div class="flex flex-col items-start justify-center py-8 max-w-[330px] mx-auto md:flex-row md:max-w-content-width md:justify-between ">
             
                 <div class="md:flex-col max-w-[240px]">
-                    <img class="justify-item-start" src="../assets/images/placeholders/cklogo.svg" alt="carlsens logo">
+                    <img class="justify-item-start" src="../assets/images/logos/logo_white.svg" alt="carlsens logo">
                         <div class="bg-border-white w-full md:max-w-content-width h-[2px] my-2"></div>
                             <p>Kom forbi Carlsens Kvarter, og få en iskold fadøl på Odenses hyggeligste ølbar. Vi garanterer en unik smagsoplevelse og højt humør på alle dagens tidspunkter.</p>
                 </div>
