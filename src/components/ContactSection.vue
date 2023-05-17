@@ -21,7 +21,7 @@ import buttonPrimary from './ButtonPrimary.vue'
 
             <div class="flex flex-col md:flex-row md:justify-between">
                 <div class=" bg-brown-primary w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">               
-                    <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
+                    <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center ">
                             <h3>SPØRGSMÅL?</h3>
                             <p class=" mb-3 max-w-[386px]">Hvis du har spørgsmål eller forespørgsler udover bestilling af ølsmagning, håndmadder eller arrangement, kan du kontakte os på følgende muligheder.</p>
                             <p class=" text-base font-medium">BORDRESERVATION ER IKKE MULIGT.</p>
@@ -34,18 +34,18 @@ import buttonPrimary from './ButtonPrimary.vue'
                     </div>
                 </div>
                 <div class=" bg-brown-primary my-[20px] w-mobilebox-width h-[363] bg-center flex flex-col justify-center p-[10px] md:w-full md:h-mobilebox-height md:max-w-longbox-width">               
-                    <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
+                    <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center ">
                         <ul class="flex flex-col gap-1">
                             <h3>ÅBNINGSTIDER</h3>
-                            <li>MANDAG - LØRDAG</li>
-                            <li>12:00 - 01:00</li>
-                            <li>SØNDAG</li>
-                            <li>13:00 - 19:00</li>
+                            <li class="text-xl ">MANDAG - LØRDAG</li>
+                            <li class="text-xl ">12:00 - 01:00</li>
+                            <li class="text-xl ">SØNDAG</li>
+                            <li class="text-xl ">13:00 - 19:00</li>
                         </ul>
                         <ul>
                             <h3>SOCIALE MEDIER</h3>
-                            <li>FACEBOOK</li>
-                            <li>INSTAGRAM</li>
+                            <li class="text-xl ">FACEBOOK</li>
+                            <li class="text-xl ">INSTAGRAM</li>
                         </ul>
                     </div>
                 </div>
