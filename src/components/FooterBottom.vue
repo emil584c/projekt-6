@@ -16,10 +16,10 @@
 
                 <div class="md:flex-col md:max-w-[175px]">
                     <h2 class="text-border-white mt-9 mb-2 md:text-2xl md:mt-12 md:mb-4.5">NYTTIGE LINKS</h2>
-                        <router-link to="/"><p class="mb-1 md:mb-3 text-lg">Forside</p></router-link>
-                        <router-link to="/"><p class="mb-1 md:mb-3 text-lg">Vi tilbyder</p></router-link>
-                        <router-link to="/about"><p class="mb-1 md:mb-3 text-lg">Hvem er vi</p></router-link>
-                        <router-link to="/contact"><p class="mb-1 md:mb-3 text-lg">Kontakt os</p></router-link>
+                        <router-link to="/"><p class="mb-1 md:mb-3 text-lg hover:underline">Forside</p></router-link>
+                        <router-link to="/"><p class="mb-1 md:mb-3 text-lg hover:underline">Vi tilbyder</p></router-link>
+                        <router-link to="/about"><p class="mb-1 md:mb-3 text-lg hover:underline">Hvem er vi</p></router-link>
+                        <router-link to="/contact"><p class="mb-1 md:mb-3 text-lg hover:underline">Kontakt os</p></router-link>
                 </div>
 
                 <div class="flex-col max-w-[177px]">
