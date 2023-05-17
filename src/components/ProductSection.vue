@@ -53,13 +53,13 @@ request({ query: INFORMATION_QUERY }).then(result => {
                 
                         <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
                             <h3>ØLSMAGNING</h3>
-                            <p class=" mb-3 max-w-[386px]">Vi tilbyder ølsmagning på bestilling. Vores erfarne personale vil guide dig igennem smagning af 5 eller 10 forskellige kvalitetsøl, som hver især har sin egen unikke smag og historie.</p>
+                            <p class=" mb-3 max-w-[386px]">Vi tilbyder ølsmagning ved bestilling. Vores erfarne personale vil guide dig igennem smagning af 5 eller 10 forskellige kvalitetsøl, som hver især har sin egen unikke smag og historie.</p>
                             <ul>
                                 <li>- {{ beer1 }}</li>
                                 <li>- {{ beer2 }}</li>
-                                <li>- Kan ikke bestilles til fredag og lørdag</li>
                                 <li>- Mellem 10-25 personer</li>
                             </ul>
+                            <p class=" text-base font-medium">SKAL BESTILLES PÅ VORES FACEBOOK MESSENGER</p>
                             <buttonPrimary buttonText="BESTIL"/>
                         </div>
                      </div>

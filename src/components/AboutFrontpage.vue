@@ -37,16 +37,17 @@
                     </div>
                     <div class=" bg-brown-primary md:bg-[url('../assets/images/service_paa_carlsens_kvarter.jpg')] bg-cover w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-10 md:w-full md:max-w-longbox-width">
                        <h3>SERVICE I FOKUS</h3> 
-                       <p class=" mb-2 max-w-[386px]">Hos Carlsens Kvarter er servicen ligeså god som vores øl. Vi har jeres ønsker som topprioritet, hvad end ganen begærer. Ønsker du en anbefaling, er vores ekspertise til rådighed.</p>
-                       <p class="max-w-[386px]">Når du besøger os skal du ikke bruge tiden på at vente ved baren. Finder du et komfortabelt sted at sidde, så kommer vores tjenere hen og tager imod din bestilling.</p>
+                       <p class=" mb-2 max-w-[386px]">Hos Carlsens Kvarter er servicen i samme kvalitet som vores øl. Når du har fundet en siddeplads, kommer vores tjenere hen og hjælper dig med at finde den helt rigtige øl.</p>
+                       <p class="max-w-[386px]">Vi spiller kun lav musik, så der er god plads til samtalen og den hyggelige stemning.</p>
                     </div>
                 </div>
 
                 <div class="flex gap-4 flex-col-reverse md:gap-10 md:flex-row md:justify-between">
                     <div class=" bg-brown-primary md:bg-[url('../assets/images/udvalg_af_oel_carlsens_kvarter.jpg')] bg-cover w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-10 md:w-full md:max-w-longbox-width">
                         <h3>UDVALG AF ØL</h3> 
-                        <p class=" mb-2 max-w-[386px]">Hos Carlsens Kvarter elsker vi øl, og er altid på udkig efter nye spændende varianter, til vores brede udvalg i baren.</p>
-                        <p class="max-w-[386px]">Vi har mange forskellige slags øl til hver en smag, dog er belgisk bryg vores specialitet. Størstedelen af vores øl kan du vælge enten at få på flaske eller fad.</p>
+                        <p class=" mb-2 max-w-[386px]">Vi elsker øl og tilbyder hele 21 øl på fad, og over 100 forskellige øl på flaske.</p>
+                        <p class=" mb-2 max-w-[386px]">Vi har øl til hver en smag, dog er belgisk bryg vores specialitet. Du kan få alt fra frugtige Lambic til Trappistøl, som alle er nøje udvalgte.</p>
+                        <p class="max-w-[386px]">Du kan selvfølgelig også altid få en kold Albani på flaske eller fad.</p>
                      </div>
                      <img src="../assets/images/menu_carlsens_kvarter.jpg" class=" w-mobilebox-width h-mobilebox-height bg-center md:w-box-width object-cover" alt="billede af tjener der holder øl">
                 </div>
