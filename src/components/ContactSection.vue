@@ -11,7 +11,7 @@ import buttonPrimary from './ButtonPrimary.vue'
                 <div class=" bg-green-primary w-mobilebox-width h-mobilelongbox-height md:h-box-width bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">
                     <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
                             <h3>BESTILLINGER</h3>
-                            <p class=" mb-3 max-w-[386px]">Ved bestilling af håndmadder, ølsmagninger eller andre arrangementer foregår bestillingen på vores Facebook Messenger.</p>
+                            <p class=" mb-3 max-w-[386px] md:max-w-full">Ved bestilling af håndmadder, ølsmagninger eller andre arrangementer foregår bestillingen på vores Facebook Messenger.</p>
                             <p class=" text-base font-medium">ALLE BESTILLINGER SKER OVER MESSENGER</p>
                             <buttonPrimary buttonText="BESTIL"/>
                     </div>
@@ -23,7 +23,7 @@ import buttonPrimary from './ButtonPrimary.vue'
                 <div class=" bg-brown-primary w-mobilebox-width h-mobilelongbox-height md:h-box-width bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">               
                     <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center ">
                             <h3>SPØRGSMÅL?</h3>
-                            <p class=" mb-3 max-w-[386px]">Hvis du har spørgsmål eller forespørgsler udover bestilling af ølsmagning, håndmadder eller arrangement, kan du kontakte os på følgende muligheder.</p>
+                            <p class=" mb-3 max-w-[386px] md:max-w-full">Hvis du har spørgsmål eller forespørgsler udover bestilling af ølsmagning, håndmadder eller arrangement, kan du kontakte os på følgende muligheder.</p>
                             <p class=" text-base font-medium">BORDRESERVATION ER IKKE MULIGT.</p>
                             <div class="bg-border-white w-full md:max-w-content-width h-[1px] my-2"></div>
                         <div class="md:flex-row">
