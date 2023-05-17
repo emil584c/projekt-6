@@ -16,7 +16,7 @@ import buttonPrimary from './ButtonPrimary.vue'
                             <buttonPrimary buttonText="BESTIL"/>
                     </div>
                     </div>
-                    <div class="bg-[url('../assets/images/bestillinger_carlsens_kvarter.jpg')] bg-cover my-[20px] w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center pl-5 md:w-box-width"></div>
+                    <div class="bg-[url('../assets/images/bestillinger_carlsens_kvarter.jpg')] bg-cover my-[20px] md:my-[0px] w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center pl-5 md:w-box-width"></div>
                 </div>
 
             <div class="flex flex-col md:flex-row md:justify-between">
@@ -33,7 +33,7 @@ import buttonPrimary from './ButtonPrimary.vue'
                         </div>
                     </div>
                 </div>
-                <div class=" bg-brown-primary my-[20px] w-mobilebox-width h-[363] bg-center flex flex-col justify-center p-[10px] md:w-full md:h-mobilebox-height md:max-w-longbox-width">               
+                <div class=" bg-brown-primary my-[20px] md:my-[0px] w-mobilebox-width h-[363] bg-center flex flex-col justify-center p-[10px] md:w-full md:h-mobilebox-height md:max-w-longbox-width">               
                     <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center ">
                         <ul class="flex flex-col gap-1">
                             <h3>ÅBNINGSTIDER</h3>
