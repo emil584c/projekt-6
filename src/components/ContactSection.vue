@@ -7,36 +7,49 @@ import buttonPrimary from './ButtonPrimary.vue'
 <template>
     <section class=" bg-cream-primary">
         <div class="flex-auto flex-col items-start justify-center max-w-[330px] mx-auto md:flex-row md:max-w-content-width ">
-
-                <div class="flex flex-col md:flex-row-reverse md:justify-between">
-                    <div class=" bg-green-primary w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">
-                        <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
+            <div class="flex flex-col md:flex-row-reverse md:justify-between">
+                <div class=" bg-green-primary w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">
+                    <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
                             <h3>BESTILLINGER</h3>
                             <p class=" mb-3 max-w-[386px]">Ved bestilling af håndmadder, ølsmagninger eller andre arrangementer foregår bestillingen på vores Facebook Messenger.</p>
                             <p class=" text-base font-medium">ALLE BESTILLINGER SKER OVER MESSENGER</p>
                             <buttonPrimary buttonText="BESTIL"/>
-                        </div>
+                    </div>
                     </div>
                     <div class="bg-[url('../assets/images/bestillinger_carlsens_kvarter.jpg')] bg-cover my-[20px] w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center pl-5 md:w-box-width"></div>
                 </div>
 
-                <div class="flex flex-col md:flex-row md:justify-between">
-                    <div class=" bg-brown-primary w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">
-                
-                        <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
+            <div class="flex flex-col md:flex-row md:justify-between">
+                <div class=" bg-brown-primary w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">               
+                    <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
                             <h3>SPØRGSMÅL?</h3>
                             <p class=" mb-3 max-w-[386px]">Hvis du har spørgsmål eller forespørgsler udover bestilling af ølsmagning, håndmadder eller arrangement, kan du kontakte os på følgende muligheder.</p>
                             <p class=" text-base font-medium">BORDRESERVATION ER IKKE MULIGT.</p>
                             <div class="bg-border-white w-full md:max-w-content-width h-[1px] my-2"></div>
-                            <div class="md:flex-row">
-                                <p class="mb-1 md:mb-3 ">+45 63 11 01 10</p>
-                                <p class="mb-1 md:mb-3 ">carlsens@carlsens.dk</p>
-                                <p class="mb-1 md:mb-3 ">Hunderupvej 19, 5000 Odense C</p>
-                            </div>
+                         <div class="md:flex-row">
+                            <p class="mb-1 md:mb-3 ">+45 63 11 01 10</p>
+                            <p class="mb-1 md:mb-3 ">carlsens@carlsens.dk</p>
+                            <p class="mb-1 md:mb-3 ">Hunderupvej 19, 5000 Odense C</p>
                         </div>
-                     </div>
-                     <div class="bg-[url('../assets/images/placeholders/menufoto.jpg')] bg-cover my-[20px] w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center gap-6 pl-5 md:w-box-width"></div>
+                    </div>
                 </div>
+                <div class=" bg-brown-primary my-[20px] w-mobilebox-width h-[363] bg-center flex flex-col justify-center p-[10px] md:w-full md:h-mobilebox-height md:max-w-longbox-width">               
+                    <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
+                        <ul class="flex flex-col gap-1">
+                            <h3>ÅBNINGSTIDER</h3>
+                            <li>MANDAG - LØRDAG</li>
+                            <li>12:00 - 01:00</li>
+                            <li>SØNDAG</li>
+                            <li>13:00 - 19:00</li>
+                        </ul>
+                        <ul>
+                            <h3>SOCIALE MEDIER</h3>
+                            <li>FACEBOOK</li>
+                            <li>INSTAGRAM</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </template>
