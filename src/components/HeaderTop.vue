@@ -4,7 +4,7 @@
 </script>
 
 <template>
-    <header class=" flex md:flex-col justify-between px-4 items-center md:px-0 md:justify-center py-7 bg-cream-primary">
+    <header class=" flex md:flex-col justify-between px-4 items-center md:px-0 md:justify-center pt-5 pb-3 bg-cream-primary">
         <router-link to="/"><img class=" md:mb-6 cursor-pointer" src="../assets/images/logos/logo_black.svg" alt="carlsens logo"></router-link>
         <div class=" hidden md:flex bg-black-primary w-full max-w-content-width h-[2px] mb-1"></div>
         <div class=" hidden md:flex bg-black-primary w-full max-w-content-width h-1 mb-3"></div>
