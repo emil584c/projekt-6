@@ -10,7 +10,7 @@
             
                 <div class="md:flex-col max-w-[240px]">
                     <img class="justify-item-start mt-9" src="../assets/images/logos/logo_white.svg" alt="carlsens logo">
-                        <div class="bg-border-white w-full md:max-w-content-width h-[2px] my-2"></div>
+                        <div class="bg-border-white w-full md:max-w-content-width h-[2px] my-2 md:mb-5"></div>
                             <p>Kom forbi Carlsens Kvarter, og få en iskold fadøl på Odenses hyggeligste ølbar. Vi garanterer en unik smagsoplevelse og højt humør på alle dagens tidspunkter.</p>
                 </div>
 
