@@ -28,15 +28,15 @@ import buttonPrimary from './ButtonPrimary.vue'
                             <div class="bg-border-white w-full md:max-w-content-width h-[1px] my-2"></div>
                         <div class="flex flex-col md:flex-row md:justify-between">
                             <div class="flex flex-row mb-4 md:flex-col">
-                                <img class="justify-item-start max-w-[40px] h-[40px] mr-1 md:mr-0 md:justify-item-center" src="../assets/images/kontakt/mail.svg" alt="mail icon">
+                                <img class="justify-item-start max-w-[25px] h-[25px] mr-1 md:mr-0 md:max-w-[25px] md:h-[25px]md:justify-item-center" src="../assets/images/kontakt/mail.svg" alt="mail icon">
                                 <p class="mb-1 md:mb-3 ">carlsens@carlsens.dk</p>
                             </div>
                             <div class="flex flex-row mb-4 md:flex-col">
-                                <img class="justify-item-start max-w-[40px] mr-1 md:mr-0 md:justify-item-center" src="../assets/images/kontakt/tele.svg" alt="mail icon">
+                                <img class="justify-item-start max-w-[25px] mr-1 md:mr-0 md:max-w-[25px] md:justify-item-center" src="../assets/images/kontakt/tele.svg" alt="mail icon">
                                 <p>+45 63 11 01 10</p>
                             </div>
                             <div class="flex flex-row mb-4 md:flex-col">
-                                <img class="justify-item-start max-w-[40px] h-[40px] pl-2 pr-1 mr-1 md:mr-0 md:justify-item-center" src="../assets/images/kontakt/pin.svg" alt="mail icon">
+                                <img class="justify-item-start max-w-[25px] h-[40px] pl-2 pr-1 mr-1 md:mr-0 md:max-w-[40px] md:h-[40px] md:justify-item-center" src="../assets/images/kontakt/pin.svg" alt="mail icon">
                                 <p class="mb-1 md:mb-3 ">Hunderupvej 19, 5000 Odense C</p>
                             </div>
                         </div>
