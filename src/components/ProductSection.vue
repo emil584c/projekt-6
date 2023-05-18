@@ -42,7 +42,7 @@ request({ query: INFORMATION_QUERY }).then(result => {
 </script>
 
 <template>
-    <section class=" bg-cream-primary pt-12">
+    <section class=" bg-cream-primary pt-12 px-3">
         <div class=" max-w-sm px-4 md:px-0 md:max-w-content-width mx-auto">
             <h2>VI TILBYDER</h2>
             <div class="flex flex-col gap-4 md:gap-10">

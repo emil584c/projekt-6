@@ -20,7 +20,7 @@ export default {
       },
       spacing: {
         'mobilebox-width': '330px',
-        'mobilebox-height': '330px',
+        'mobilebox-height': '360px',
         'mobilelongbox-height': '482px',
         'box-width': '363px'
       }
