@@ -54,7 +54,7 @@ request({ query: INFORMATION_QUERY }).then(result => {
                         <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
                             <h3>ØLSMAGNING</h3>
                             <p class=" mb-3 max-w-[386px]">Vi tilbyder ølsmagning ved bestilling. Vores erfarne personale vil guide dig igennem smagning af 5 eller 10 forskellige kvalitetsøl, som hver især har sin egen unikke smag og historie.</p>
-                            <ul>
+                            <ul class="mb-3">
                                 <li>- {{ beer1 }}</li>
                                 <li>- {{ beer2 }}</li>
                                 <li>- Mellem 10-25 personer</li>
@@ -87,8 +87,13 @@ request({ query: INFORMATION_QUERY }).then(result => {
                     <div class=" bg-brown-primary w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">
                         <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
                             <h3>ARRANGEMENTER</h3>
-                            <p class=" mb-3 max-w-[386px]">På dage hvor der er kapacitet til det, tilbyder vi også vores lokaler til brug i forbindelse med arrangementer.</p>
-                            <p class=" max-w-[386px]">Kontakt os for at høre mere om, hvad der er muligt.</p>
+                            <p class=" mb-3 max-w-[386px]">På dage hvor der er kapacitet til det, tilbyder vi også vores lokaler til brug i forbindelse med arrangementer. </p>
+                            <p class=" max-w-[386px]">Vi afholder alt fra barnedåb til begravelser, så det meste er muligt. Skriv til os for at høre nærmere.</p>
+                            <ul class="my-3">
+                                <li>- Maks 35-40 personer</li>
+                                <li>- Min 5-7 personer</li>
+                            </ul>
+                            <p class=" text-base font-medium">SKAL BESTILLES PÅ VORES FACEBOOK MESSENGER</p>
                             <buttonPrimary buttonText="KONTAKT OS"/>
                         </div>
                      </div>
