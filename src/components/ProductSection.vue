@@ -43,14 +43,15 @@ request({ query: INFORMATION_QUERY }).then(result => {
 
 <template>
     <section id="product-section" class=" bg-cream-primary pt-12 px-3">
-        <div class=" max-w-sm px-4 md:px-0 md:max-w-content-width mx-auto">
-            <h2>VI TILBYDER</h2>
+        <div class="max-w-[330px] md:max-w-content-width mx-auto">
+            <h2 class="self-start">VI TILBYDER</h2>
+        </div>
+        <div class="px-4 md:px-0 md:max-w-content-width mx-auto w-full justify-center">
             <div class="flex flex-col gap-4 md:gap-10">
 
-                <div class="flex gap-4 flex-col-reverse md:gap-10 md:flex-row md:justify-between">
+                <div class="flex flex-col gap-4 md:gap-10 items-center justify-center md:items-stretch md:flex-row md:justify-between">
                     <img src="../assets/images/bestillinger_carlsens_kvarter.jpg" class=" w-mobilebox-width h-mobilebox-height bg-center md:w-box-width object-cover" alt="billede af tjener der holder øl">
                     <div class=" bg-brown-primary w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">
-                
                         <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
                             <h3>ØLSMAGNING</h3>
                             <p class=" mb-3 max-w-[386px]">Vi tilbyder ølsmagning ved bestilling. Vores erfarne personale vil guide dig igennem smagning af 5 eller 10 forskellige kvalitetsøl, som hver især har sin egen unikke smag og historie.</p>
@@ -65,9 +66,8 @@ request({ query: INFORMATION_QUERY }).then(result => {
                      </div>
                 </div>
 
-                <div class="flex gap-4 flex-col-reverse md:gap-10 md:flex-row md:justify-between">
+                <div class="flex flex-col gap-4 md:gap-10 items-center justify-center md:items-stretch md:flex-row md:justify-between">
                     <div class=" bg-green-primary w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">
-                
                         <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
                             <h3>HÅNDMADDER</h3>
                             <p class=" mb-3 max-w-[386px]">Fredag og lørdag mellem kl 12 og 14 har du den gyldne mulighed for at nyde din frokost på Carlsens Kvarter. Vi tilbyder tre stykker friske håndmadder fra den lokale Allégårdens Slagter sammensat med en Albani Classic på fad.</p>
@@ -82,7 +82,7 @@ request({ query: INFORMATION_QUERY }).then(result => {
                      <img src="../assets/images/haandmadder_carlsens_kvarter.jpg" class=" w-mobilebox-width h-mobilebox-height bg-center md:w-box-width object-cover" alt="billede af Carlsens Kvarters håndmadder">
                 </div>
 
-                <div class="flex gap-4 flex-col-reverse md:gap-10 md:flex-row md:justify-between">
+                <div class="flex flex-col gap-4 md:gap-10 items-center justify-center md:items-stretch md:flex-row md:justify-between">
                     <img src="../assets/images/arrangementer_carlsens_kvarter.jpg" class=" w-mobilebox-width h-mobilebox-height bg-center md:w-box-width object-cover" alt="billede af Carlsens Kvarters lokaler">
                     <div class=" bg-brown-primary w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">
                         <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">

@@ -5,7 +5,7 @@
 
 <template>
     <section class=" bg-cream-primary py-14 px-3">
-        <div class=" mx-auto max-w-sm md:max-w-content-width">
+        <div class=" mx-auto max-w-[330px] md:max-w-content-width">
             <h2 class=" mb-5">FØLG OS PÅ INSTAGRAM</h2>
             <div class=" max-w-content-width mx-auto grid grid-rows-2 grid-cols-2 place-items-center md:gap-2 md:flex md:justify-between">
                 <a class="h-fit w-fit overflow-hidden relative group" href="https://www.instagram.com/p/CsF0sfwMapP/" target="_blank">
