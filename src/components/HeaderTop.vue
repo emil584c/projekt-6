@@ -39,7 +39,7 @@ const scrollToSection = (id) => {
             </div>
 
             <!-- hamburger menu -->
-            <div  @click="showMobileMenu = !showMobileMenu" class="fixed right-4 top-8 flex flex-col gap-1 md:hidden cursor-pointer md:relative z-40">
+            <div  @click="showMobileMenu = !showMobileMenu" class="fixed right-4 top-4 flex flex-col gap-1 md:hidden cursor-pointer z-40 bg-cream-primary p-3">
                 <div class=" w-8 h-1 bg-black-primary"></div>
                 <div class=" w-8 h-1 bg-black-primary"></div>
                 <div class=" w-8 h-1 bg-black-primary"></div>

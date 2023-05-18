@@ -50,7 +50,7 @@ request({ query: EMPLOYEE_QUERY }).then(result => {
 
 <template>
     <section class="bg-cream-primary px-3">
-        <div class="max-w-sm md:max-w-content-width mx-auto">
+        <div class="max-w-[330px] md:max-w-content-width mx-auto">
             <h2>MØD HOLDET BAG BAREN</h2>
             <p class=" text-black-primary max-w-[685px] mb-4">Vores personale står klar til enhver tid at give dig en personlig betjening. Herunder ser du vores faste personale som du kan være sikker på at møde i baren når du kommer.</p>
             <div class=" flex flex-wrap w-full gap-3 justify-center md:grid md:grid-cols-4">
