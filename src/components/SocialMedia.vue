@@ -4,10 +4,10 @@
 </script>
 
 <template>
-    <section class=" bg-cream-primary py-14">
-        <div class=" mx-auto max-w-content-width">
+    <section class=" bg-cream-primary py-14 px-3">
+        <div class=" mx-auto max-w-sm md:max-w-content-width">
             <h2 class=" mb-5">FØLG OS PÅ INSTAGRAM</h2>
-            <div class=" max-w-content-width mx-auto grid grid-rows-2 grid-cols-2 gap-2 md:flex md:justify-between">
+            <div class=" max-w-content-width mx-auto grid grid-rows-2 grid-cols-2 place-items-center md:gap-2 md:flex md:justify-between">
                 <a class="h-fit w-fit overflow-hidden relative group" href="https://www.instagram.com/p/CsF0sfwMapP/" target="_blank">
                     <img class="w-[160px] h-[160px] md:w-[270px] md:h-[270px] object-cover group-hover:scale-105 duration-500 hover:opacity-80" src="../assets/images/instagram/post1.jpg" alt="Carlsens Kvarter instagram post">
                     <img class="absolute z-10 top-2 left-2 h-3 w-3" src="../assets/images/instagram/insta.svg" alt="instagram logo">
