@@ -4,7 +4,6 @@
 </script>
 
 <template>
-
     <section class=" bg-cream-primary py-12 px-3">
         <div class=" max-w-sm px-4 md:px-0 md:max-w-content-width mx-auto">
             <h2>VORES HISTORIE</h2>
@@ -36,5 +35,4 @@
             </div>
         </div>
     </section>
-
 </template>

@@ -102,5 +102,4 @@ request({ query: INFORMATION_QUERY }).then(result => {
             </div>
         </div>
     </section>
-
 </template>

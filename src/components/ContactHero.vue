@@ -4,7 +4,6 @@
 </script>
 
 <template>
-
     <section class=" pt-6 overflow-hidden bg-cream-primary">
         <div class="w-full h-[60vh] relative px-6 md:px-0 md:mx-auto md:max-w-content-width flex flex-col items-center">
             <img class="h-[60vh] md:h-[80vh] w-full object-cover object-center" src="../assets/images/hvem_er_vi_carlsens_kvarter.jpg"/>
@@ -16,5 +15,4 @@
             </div>
         </div>
     </section>
-
 </template> 

@@ -4,7 +4,6 @@
 </script>
 
 <template>
-
     <footer class=" bg-brown-primary">
         <div class="flex flex-col items-start justify-center py-8 max-w-[330px] mx-auto md:flex-row md:max-w-content-width md:justify-between ">
             
@@ -42,6 +41,5 @@
             <p class="mt-4 text-lg">© 2023 Carlsens Kvarter</p>
         </div>
 
-    </footer>
-    
+    </footer>  
 </template>
