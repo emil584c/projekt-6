@@ -5,7 +5,7 @@ import buttonPrimary from './ButtonPrimary.vue'
 </script>
 
 <template>
-    <section class=" bg-cream-primary p-5">
+    <section class=" bg-cream-primary">
         <div class="flex-auto flex-col items-start justify-center max-w-[330px] mx-auto md:flex-row md:max-w-content-width ">
             <div class="flex flex-col md:flex-row-reverse md:justify-between">
                 <div class=" bg-green-primary w-mobilebox-width h-mobilelongbox-height md:h-box-width bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">
