@@ -8,10 +8,10 @@
     <section class=" bg-cream-primary py-12 px-3">
         <div class=" max-w-sm px-4 md:px-0 md:max-w-content-width mx-auto">
             <h2>VORES HISTORIE</h2>
-            <div class="flex flex-col gap-4 md:gap-10">
+            <div class="flex flex-col gap-4 md:gap-10 items-center md:items-stretch">
 
                 <div class="flex gap-4 flex-col md:gap-10 md:flex-row md:justify-between">
-                    <img src="../assets/images/benny_carlsens_kvarter.jpg" class=" w-mobilebox-width h-mobilebox-height bg-center md:w-box-width object-cover" alt="billede af Benny">
+                    <img src="../assets/images/benny_carlsens_kvarter.jpg" class=" w-mobilebox-width h-mobilebox-width md:h-mobilebox-height md:w-box-width object-cover" alt="billede af Benny">
                     <div class=" bg-green-primary w-mobilebox-width h-fit md:h-mobilebox-height bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">
                 
                         <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
