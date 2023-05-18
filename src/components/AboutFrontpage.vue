@@ -3,8 +3,6 @@
 </script>
 
 <template>
-
-
     <section class=" bg-cream-primary pt-12 px-3">
         <div class=" max-w-sm px-4 md:px-0 md:max-w-content-width mx-auto">
             <h2>HVEM ER CARLSENS KVARTER</h2>
@@ -55,5 +53,4 @@
             </div>
         </div>
     </section>
-
 </template>
