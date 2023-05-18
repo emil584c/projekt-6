@@ -17,7 +17,7 @@ const INFORMATION_QUERY = `
         information {
         id
         name
-        priser{
+        pricing{
         ... on PricingRecord{
             bread
             beerTasting1
@@ -30,10 +30,10 @@ const INFORMATION_QUERY = `
 
 request({ query: INFORMATION_QUERY }).then(result => {
   data.value = result;
-//   console.log(data.value.information.priser[0]);
-  bread.value = data.value.information.priser[0].bread;
-  beer1.value = data.value.information.priser[0].beerTasting1;
-  beer2.value = data.value.information.priser[0].beerTasting2;
+//   console.log(data.value.information.pricing[0]);
+  bread.value = data.value.information.pricing[0].bread;
+  beer1.value = data.value.information.pricing[0].beerTasting1;
+  beer2.value = data.value.information.pricing[0].beerTasting2;
 }).catch(e => {
   error.value = e;
 }).finally(() => {
