@@ -22,9 +22,9 @@ const INFORMATION_QUERY = `
             bread
             beerTasting1
             beerTasting2
-            }
+          }
         }
-    }
+      }
     }
 `;
 
