@@ -10,7 +10,6 @@ const scrollToSection = (id) => {
     section.scrollIntoView({ behavior: "smooth" });
   }
 };
-
 </script>
 
 <template>

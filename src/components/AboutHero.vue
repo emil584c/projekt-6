@@ -1,6 +1,5 @@
 <!-- Emil Skriver -->
 <script setup>
-
 </script>
 
 <template>

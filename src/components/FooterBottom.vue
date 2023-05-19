@@ -1,6 +1,5 @@
 <!-- Abasin skriver -->
 <script setup>
-
 </script>
 
 <template>

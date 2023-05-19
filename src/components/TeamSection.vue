@@ -1,7 +1,6 @@
 <!-- Emil Skriver -->
 
 <script setup>
-
 import { ref } from 'vue'
 import { request } from "../datocms";
 import { Image as DatocmsImage } from "vue-datocms";
