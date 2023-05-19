@@ -31,10 +31,10 @@ const scrollToSection = (id) => {
             <div :class="{ hidden: showMobileMenu}" class="fixed z-30 top-0 left-0 bg-cream-primary w-full h-full pt-7 pl-8 ">
                 <ul class=" flex flex-col gap-2 w-fit">
                     <router-link @click="showMobileMenu = !showMobileMenu" to="/"><img class=" mb-4 cursor-pointer" src="../assets/images/logos/logo_black.svg" alt="carlsens logo"></router-link>
-                    <li class=" text-black text-lg hover:underline"><router-link to="/">FORSIDE</router-link></li>
+                    <li class=" text-black text-lg hover:underline"><router-link @click="showMobileMenu = !showMobileMenu" to="/">FORSIDE</router-link></li>
                     <li class=" text-black text-lg hover:underline" @click="scrollToSection('product-section')"><router-link @click="showMobileMenu = !showMobileMenu" to="/">VI TILBYDER</router-link></li>
-                    <li class=" text-black text-lg hover:underline"><router-link to="/about">HVEM ER VI</router-link></li>
-                    <li class=" text-black text-lg hover:underline"><router-link to="/contact">KONTAKT</router-link></li>
+                    <li class=" text-black text-lg hover:underline"><router-link @click="showMobileMenu = !showMobileMenu" to="/about">HVEM ER VI</router-link></li>
+                    <li class=" text-black text-lg hover:underline"><router-link @click="showMobileMenu = !showMobileMenu" to="/contact">KONTAKT</router-link></li>
                 </ul>
             </div>
 
