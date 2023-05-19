@@ -17,7 +17,7 @@ import buttonPrimary from './ButtonPrimary.vue'
                             <buttonPrimary buttonText="BESTIL"/>
                     </div>
                     </div>
-                    <div class="bg-[url('../assets/images/bestillinger_carlsens_kvarter.jpg')] bg-cover my-[20px] md:my-[0px] w-mobilebox-width h-mobilebox-height bg-center flex flex-col justify-center pl-5 md:w-box-width md:h-box-width"></div>
+                    <img src="../assets/images/bestillinger_carlsens_kvarter.jpg" class=" w-mobilebox-width h-mobilebox-height bg-center md:w-box-width object-cover" alt="billede af tjener der hælder øl op">
                 </div>
 
             <div class="flex flex-col md:flex-row md:justify-between md:my-[40px]">
