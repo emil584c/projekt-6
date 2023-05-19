@@ -8,8 +8,10 @@ import FooterBottom from '../components/FooterBottom.vue'
 
 <template>
 <HeaderTop />
-<ContactHero />
-<ContactSection />
-<SocialMedia />
+<main>
+    <ContactHero />
+    <ContactSection />
+    <SocialMedia />
+</main>
 <FooterBottom />
 </template>

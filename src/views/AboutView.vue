@@ -10,10 +10,12 @@ import FooterBottom from '../components/FooterBottom.vue'
 <template>
 
 <HeaderTop />
-<AboutHero />
-<TeamSection />
-<HistorySection />
-<SocialMedia />
+<main>
+    <AboutHero />
+    <TeamSection />
+    <HistorySection />
+    <SocialMedia />
+</main>
 <FooterBottom />
 
 </template>
