@@ -5,7 +5,7 @@ import buttonPrimary from './ButtonPrimary.vue'
 </script>
 
 <template>
-    <section class=" bg-cream-primary">
+    <section class=" bg-cream-primary p-1">
         <div class="flex-auto flex-col items-start justify-center max-w-[330px] mx-auto md:flex-row md:max-w-content-width ">
             <div class="flex flex-col md:flex-row-reverse md:justify-between">
                 <div class=" bg-green-primary w-mobilebox-width h-mobilelongbox-height md:h-box-width bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">
@@ -32,11 +32,11 @@ import buttonPrimary from './ButtonPrimary.vue'
                                 <p class="mb-1 md:mb-3 ">carlsens@carlsens.dk</p>
                             </div>
                             <div class="flex flex-row mb-4 md:flex-col  items-center">
-                                <img class="justify-item-start max-w-[25px] mr-1 md:mr-0 md:max-w-[40px] md:my-7 md:justify-item-center" src="../assets/images/kontakt/tele.svg" alt="mail icon">
+                                <img class="justify-item-start max-w-[25px] mr-1 md:mr-0 md:max-w-[40px] md:my-7 md:justify-item-center" src="../assets/images/kontakt/tele.svg" alt="telephone icon">
                                 <p>+45 63 11 01 10</p>
                             </div>
                             <div class="flex flex-row mb-4 md:flex-col items-center">
-                                <img class="justify-item-start max-w-[25px] h-[40px] pl-2 pr-1 mr-1 md:mr-0 md:max-w-[40px] md:h-[40px] md:my-7 md:justify-item-center" src="../assets/images/kontakt/pin.svg" alt="mail icon">
+                                <img class="justify-item-start max-w-[25px] h-[40px] pl-2 pr-1 mr-1 md:mr-0 md:max-w-[40px] md:h-[40px] md:my-7 md:justify-item-center" src="../assets/images/kontakt/pin.svg" alt="pin icon">
                                 <p class="mb-1 md:mb-3 ">Hunderupvej 19, 5000 Odense C</p>
                             </div>
                         </div>
@@ -53,8 +53,14 @@ import buttonPrimary from './ButtonPrimary.vue'
                         </ul>
                         <ul>
                             <h3>SOCIALE MEDIER</h3>
-                            <li class="text-xl ">FACEBOOK</li>
-                            <li class="text-xl ">INSTAGRAM</li>
+                            <div class="flex flex-row mb-4 md:flex-row  md:mb-3 items-center">
+                                <img class="justify-item-start max-w-[25px] h-[25px] mr-1 md:mr-2 md:max-w-[30px] md:h-[30px] md:my-1 md:justify-item-center" src="../assets/images/kontakt/fb.svg" alt="facebook icon">
+                                <li class="text-xl ">FACEBOOK</li>
+                            </div>
+                            <div class="flex flex-row mb-4 md:flex-row  md:mb-3 items-center">
+                                <img class="justify-item-start max-w-[25px] h-[25px] mr-1 md:mr-2 md:max-w-[30px] md:h-[30px] mt:my-1 md:justify-item-center" src="../assets/images/kontakt/insta.svg" alt="instagram icon">
+                                <li class="text-xl ">INSTAGRAM</li>
+                            </div>
                         </ul>
                     </div>
                 </div>
