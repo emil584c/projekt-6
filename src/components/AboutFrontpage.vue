@@ -9,7 +9,7 @@
         </div>
         <div class=" px-4 md:px-0 md:max-w-content-width mx-auto w-full justify-center">
             <div class="flex flex-col gap-4 md:gap-10">
-                <div class="flex flex-col gap-4 md:gap-10 items-center justify-center md:items-stretch md:flex-row md:justify-between">
+                <div class="flex flex-col gap-4 md:gap-10 items-center justify-center md:items-stretch md:flex-row md:justify-between overflow-hidden">
                     <div class="bg-[url('../assets/images/holdet_bag_carlsen_kvarter.jpg')] bg-cover w-mobilebox-width h-mobilebox-width md:h-mobilebox-height bg-center flex justify-center items-end p-10 md:max-w-longbox-width md:w-full md:justify-end md:p-8">
                         <router-link to="/about">
                             <div class=" bg-cream-primary p-[5px] relative z-10 w-fit hover:scale-95 duration-100">
@@ -17,7 +17,7 @@
                             </div>
                         </router-link>
                     </div>
-                    <div class="bg-[url('../assets/images/aabningstider_carlsens_kvarter.jpg')] bg-cover w-mobilebox-width h-mobilebox-width md:h-mobilebox-height bg-center flex flex-col justify-center gap-6 pl-5 md:w-box-width">
+                    <div class="bg-[url('../assets/images/aabningstider_carlsens_kvarter.jpg')] bg-cover w-mobilebox-width h-mobilebox-width md:h-mobilebox-height flex flex-col justify-center gap-6 pl-5 md:w-box-width scale-105">
                         <ul class="flex flex-col gap-1">
                             <h3>ÅBNINGSTIDER</h3>
                             <li>MANDAG - LØRDAG</li>
