@@ -28,7 +28,7 @@
                             <p class=" max-w-[386px] md:max-w-[600px]">Vi er stolte af vores historie og fortsætter med at tilbyde vores gæster det bedste af det bedste. I 1997 introducerede vi vores første tre egen importerede belgiske øl. Vi har siden udvidet vores sortiment, men vores mål er stadig det samme - at tilbyde vores gæster en varm og hyggelig oplevelse med god og personlig service.</p>
                         </div>
                      </div>
-                     <img src="../assets/images/benny_carlsens_kvarter2.jpg" class=" w-mobilebox-width h-mobilebox-height bg-center md:w-box-width object-cover" alt="billede af Benny">
+                     <img src="../assets/images/benny_carlsens_kvarter2.jpg" class=" w-mobilebox-width h-mobilebox-width md:h-mobilebox-height md:w-box-width object-cover" alt="billede af Benny">
                 </div>
 
             </div>
