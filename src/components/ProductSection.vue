@@ -66,7 +66,7 @@ request({ query: INFORMATION_QUERY }).then(result => {
                      </div>
                 </div>
 
-                <div class="flex flex-col gap-4 md:gap-10 items-center justify-center md:items-stretch md:flex-row md:justify-between">
+                <div class="flex flex-col-reverse gap-4 md:gap-10 items-center justify-center md:items-stretch md:flex-row md:justify-between">
                     <div class=" bg-green-primary w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-[10px] md:w-full md:max-w-longbox-width">
                         <div class="border-solid border-[1px] border-border-white w-full h-full p-6 flex flex-col justify-center relative">
                             <h3>HÅNDMADDER</h3>
