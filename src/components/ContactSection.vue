@@ -51,17 +51,17 @@ import buttonPrimary from './ButtonPrimary.vue'
                             <li>SØNDAG</li>
                             <li>13:00 - 19:00</li>
                         </ul>
-                        <ul>
+                        <ul class=" mt-2">
                             <h3>SOCIALE MEDIER</h3>
                             <a href="https://www.facebook.com/CarlsensKvarter" class="cursor-pointer" target="_blank">
                                 <div class="flex flex-row mb-4 md:flex-row  md:mb-3 items-center">
-                                    <img class="justify-item-start max-w-[25px] h-[25px] mr-1 md:mr-2 md:max-w-[30px] md:h-[30px] md:my-1 md:justify-item-center" src="../assets/images/kontakt/fb.svg" alt="facebook icon">
+                                    <img class="justify-item-start max-w-[25px] h-[25px] mr-1 md:mr-2 md:max-w-[25px] md:h-[25px] md:my-1 md:justify-item-center" src="../assets/images/kontakt/fb.svg" alt="facebook icon">
                                     <li>FACEBOOK</li>
                                 </div>
                             </a>
                             <a href="https://www.instagram.com/carlsenskvarter/" class="cursor-pointer" target="_blank">
                                 <div class="flex flex-row mb-4 md:flex-row  md:mb-3 items-center">
-                                    <img class="justify-item-start max-w-[25px] h-[25px] mr-1 md:mr-2 md:max-w-[30px] md:h-[30px] mt:my-1 md:justify-item-center" src="../assets/images/kontakt/insta.svg" alt="instagram icon">
+                                    <img class="justify-item-start max-w-[25px] h-[25px] mr-1 md:mr-2 md:max-w-[25px] md:h-[25px] mt:my-1 md:justify-item-center" src="../assets/images/kontakt/insta.svg" alt="instagram icon">
                                     <li>INSTAGRAM</li>
                                 </div>
                             </a>

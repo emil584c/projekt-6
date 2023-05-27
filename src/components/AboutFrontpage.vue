@@ -36,7 +36,7 @@
                 <div class="flex flex-col gap-4 md:gap-10 items-center md:items-stretch md:flex-row md:justify-between">
                     <img src="../assets/images/facade_carlsens_kvarter.jpg" class=" w-mobilebox-width h-mobilebox-height bg-center md:w-box-width object-cover" alt="billede af tjener der holder øl">
                     <div class=" bg-brown-primary md:bg-[url('../assets/images/service_paa_carlsens_kvarter.jpg')] bg-cover w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-10 md:w-full md:max-w-longbox-width">
-                       <h3>SERVICE I FOKUS</h3> 
+                       <h3>FOKUS PÅ DEN GODE STEMNING</h3> 
                        <p class=" mb-2 max-w-[386px]">Hos Carlsens Kvarter er servicen i samme kvalitet som vores øl. Når du har fundet en siddeplads, kommer vores tjenere hen og hjælper dig med at finde den helt rigtige øl.</p>
                        <p class="max-w-[386px]">Vi spiller kun lav musik, så der er god plads til samtalen og den hyggelige stemning.</p>
                     </div>
@@ -44,8 +44,8 @@
 
                 <div class="flex gap-4 flex-col-reverse items-center md:items-stretch md:gap-10 md:flex-row md:justify-between">
                     <div class=" bg-brown-primary md:bg-[url('../assets/images/udvalg_af_oel_carlsens_kvarter.jpg')] bg-cover w-mobilebox-width h-mobilelongbox-height md:h-mobilebox-height bg-center flex flex-col justify-center p-10 md:w-full md:max-w-longbox-width">
-                        <h3>UDVALG AF ØL</h3> 
-                        <p class=" mb-2 max-w-[386px]">Vi elsker øl og tilbyder hele 21 øl på fad, og over 100 forskellige øl på flaske.</p>
+                        <h3>VORES UDVALG AF ØL</h3> 
+                        <p class=" mb-2 max-w-[386px]">Vi elsker øl og tilbyder derfor hele 21 øl på fad, og over 100 forskellige øl på flaske, med jævnlig udskiftning.</p>
                         <p class=" mb-2 max-w-[386px]">Vi har øl til hver en smag, dog er belgisk bryg vores specialitet. Du kan få alt fra frugtige Lambic til Trappistøl, som alle er nøje udvalgte.</p>
                         <p class="max-w-[386px]">Du kan selvfølgelig også altid få en kold Albani på flaske eller fad.</p>
                      </div>
